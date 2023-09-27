@@ -1,0 +1,28 @@
+{
+    "data_dir": {
+        "btcv": "./data/segmentation/BTCV/Abdomen/RawData",
+        "btcv_v2": "./data/segmentation/Synapse",
+        "chexpert": "data/classification/chest/cheXpert/CheXpert-v1.0-small/"
+    },
+    "model_list": [
+      "unet", "unet++", "attentionunet", "transunet",
+      "unetr", "swinunet", "swinunetr", "nnunet", "nnformer"
+    ],
+    "model_weight": {
+      "resnet50": "data/pretrained/resnet50.pth",
+      "resnet101": "data/pretrained/resnet101.pth",
+      "resnet152": "data/pretrained/resnet152.pth",
+      "swin_tiny_patch4_window7_224": "data/pretrained/swin_tiny_patch4_window7_224.pth",
+      "swin_small_patch4_window7_224": "data/pretrained/swin_small_patch4_window7_224.pth",
+      "swin_base_patch4_window7_224": "data/pretrained/swin_base_patch4_window7_224.pth"
+    },
+
+    "settings": {
+      "btcv": {
+        "dataset_type": "btcv", "pretrained": false,
+        "lr": 1e-4, "batch_size": 1, "optimizer": "adamw",
+        "weight_decay": 1e-5, "criterion": "dicece",
+        "schduler":"cosine", "warmup_epoch": 0
+      }
+    }
+}

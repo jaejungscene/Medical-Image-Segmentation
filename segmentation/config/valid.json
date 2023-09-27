@@ -1,0 +1,26 @@
+{
+  "data_dir": {
+    "btcv_3d": "./data/segmentation/BTCV/Abdomen/RawData",
+    "btcv_2d": "./data/segmentation/Synapse",
+    "acdc_2d": "./data/segmentation/ACDC/ACDC_2d"
+  },
+  "btcv_v2":{
+    "settings":{"dataset_type": "btcv_v2", "test_size": [224,224]}
+  },
+  "isic2018_v1": {
+    "settings": {"dataset_type": "isic2018", "test_size": [224, 224], "center_crop_ptr": 0.875},
+    "model_weight": {
+      "convnext_tiny": "log/isic2018_v1_convnext_tiny_v1/best_weight.pth",
+      "convnext_small": "log/isic2018_v1_convnext_small_v1/best_weight.pth",
+      "convnext_base": "log/isic2018_v1_convnext_base_v1/best_weight.pth"
+    }
+  },
+  "isic2019_v1": {
+    "settings": {"dataset_type": "isic2019", "test_size": [224, 224], "center_crop_ptr": 0.875},
+    "model_weight": {
+      "convnext_tiny": "log/isic2019_v1_convnext_tiny_v2/best_weight.pth",
+      "convnext_small": "log/isic2019_v1_convnext_small_v2/best_weight.pth",
+      "convnext_base": "log/isic2019_v1_convnext_base_v2/best_weight.pth"
+    }
+  }
+}

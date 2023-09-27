@@ -1,0 +1,21 @@
+[2023/01/24 16:58] | idx 0 case case0008 mean_dice 0.000067 mean_hd95 46.697163
+[2023/01/24 16:58] | idx 1 case case0022 mean_dice 0.000058 mean_hd95 48.991310
+[2023/01/24 16:58] | idx 2 case case0038 mean_dice 0.000013 mean_hd95 47.455407
+[2023/01/24 16:59] | idx 3 case case0036 mean_dice 0.000039 mean_hd95 48.309872
+[2023/01/24 16:59] | idx 4 case case0032 mean_dice 0.000102 mean_hd95 47.173036
+[2023/01/24 17:00] | idx 5 case case0002 mean_dice 0.000084 mean_hd95 44.901072
+[2023/01/24 17:00] | idx 6 case case0029 mean_dice 0.000063 mean_hd95 47.235497
+[2023/01/24 17:01] | idx 7 case case0003 mean_dice 0.000165 mean_hd95 48.608770
+[2023/01/24 17:01] | idx 8 case case0001 mean_dice 0.000041 mean_hd95 47.061446
+[2023/01/24 17:01] | idx 9 case case0004 mean_dice 0.000023 mean_hd95 43.940807
+[2023/01/24 17:02] | idx 10 case case0025 mean_dice 0.000177 mean_hd95 44.825181
+[2023/01/24 17:02] | idx 11 case case0035 mean_dice 0.125000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 1 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 2 mean_dice 0.083887 mean_hd95 343.466373
+[2023/01/24 17:02] | Mean class 3 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 4 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 5 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 6 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 7 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Mean class 8 mean_dice 0.000000 mean_hd95 0.000000
+[2023/01/24 17:02] | Testing performance>>  mean_dice : 0.010486  mean_hd95 : 42.933297

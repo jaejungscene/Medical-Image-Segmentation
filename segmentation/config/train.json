@@ -1,0 +1,39 @@
+{
+    "data_dir": {
+        "acdc_2d": "./data/segmentation/ACDC/ACDC_2d",
+        "btcv_3d": "./data/segmentation/BTCV/Abdomen/RawData",
+        "btcv_2d": "./data/segmentation/Synapse"
+    },
+    "settings": {
+      "acdc_2d": {
+        "dataset_type": "acdc_2d", "pretrained": false,
+        "lr": 1e-4, "batch_size": 12, "optimizer": "sgd",
+        "weight_decay": 1e-5, "criterion": "dicece",
+        "schduler":"onecyclelr", "warmup_epoch": 0, "img_size":224
+      },
+      "btcv_3d": {
+        "dataset_type": "btcv_3d", "pretrained": false,
+        "lr": 1e-4, "batch_size": 1, "optimizer": "adamw",
+        "weight_decay": 1e-5, "criterion": "dicece",
+        "schduler":"onecyclelr", "warmup_epoch": 0
+      },
+      "btcv_2d": {
+        "dataset_type": "btcv_2d", "pretrained": false,
+        "lr": 0.01, "batch_size": 24, "optimizer": "sgd",
+        "weight_decay": 1e-4, "criterion": "dicece",
+        "schduler":"onecyclelr", "warmup_epoch": 0, "img_size":224
+      }
+    },
+    "model_list": [
+      "unet", "unet++", "attentionunet", "transunet",
+      "unetr", "swinunet", "swinunetr", "nnunet", "nnformer"
+    ],
+    "model_weight": {
+      "resnet50": "data/pretrained/resnet50.pth",
+      "resnet101": "data/pretrained/resnet101.pth",
+      "resnet152": "data/pretrained/resnet152.pth",
+      "swin_tiny_patch4_window7_224": "data/pretrained/swin_tiny_patch4_window7_224.pth",
+      "swin_small_patch4_window7_224": "data/pretrained/swin_small_patch4_window7_224.pth",
+      "swin_base_patch4_window7_224": "data/pretrained/swin_base_patch4_window7_224.pth"
+    }
+}

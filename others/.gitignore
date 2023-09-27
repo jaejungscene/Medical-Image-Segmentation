@@ -1,0 +1,8 @@
+__pycache__
+data
+pretrained_pth
+*.pth
+wandb
+model_pth
+test_log
+result_map

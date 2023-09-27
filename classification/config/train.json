@@ -1,0 +1,67 @@
+{
+    "data_dir": {
+        "chexpert": "data/classification/chest/cheXpert/CheXpert-v1.0-small/",
+        "nihchest": "data/classification/chest/nih/",
+        "ddsm": "data/classification/breast/DDSM",
+        "vindr":"data/classification/breast/VinDr",
+        "isic2018": "data/classification/skin/ISIC-2018",
+        "isic2019": "data/classification/skin/ISIC-2019",
+        "eyepacs": "data/classification/eye/EyePACS",
+        "messidor2": "data/classification/eye/MESSIDOR2",
+        "pcam": "data/classification/lymph/PatchCamelyon"
+    },
+    "model_list": [
+      "resnet50", "resnet101", "resnet152",
+      "convnext_tiny", "convnext_small", "convnext_base",
+      "densenet121", "densenet161", "densenet169", "densenet201",
+      "deit_tiny_patch16_224", "deit_small_patch16_224", "deit_base_patch16_224",
+      "swin_tiny_patch4_window7_224", "swin_small_patch4_window7_224", "swin_base_patch4_window7_224"
+    ],
+    "model_weight": {
+      "resnet50": "data/pretrained/resnet50.pth",
+      "resnet101": "data/pretrained/resnet101.pth",
+      "resnet152": "data/pretrained/resnet152.pth",
+      "swin_tiny_patch4_window7_224": "data/pretrained/swin_tiny_patch4_window7_224.pth",
+      "swin_small_patch4_window7_224": "data/pretrained/swin_small_patch4_window7_224.pth",
+      "swin_base_patch4_window7_224": "data/pretrained/swin_base_patch4_window7_224.pth"
+    },
+    "settings": {
+      "chexpert_v1": {
+        "dataset_type": "chexpert", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "bce"
+      },
+      "nihchest_v1": {
+        "dataset_type": "nihchest", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "bce"
+      },
+      "ddsm_v1": {
+        "dataset_type": "ddsm", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "bce"
+      },
+      "isic2018_v1": {
+        "dataset_type": "isic2018", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "ce",
+        "save_metric": "recall"
+      },
+      "isic2019_v1": {
+        "dataset_type": "isic2019", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "ce",
+        "save_metric": "recall"
+      },
+      "messidor2_v1": {
+        "dataset_type": "messidor2", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "ce"
+      },
+      "eyepacs_v1": {
+        "dataset_type": "eyepacs", "pretrained": true,
+        "lr": 1e-3, "random_affine": true, "remode": 0.2, "batch_size": 32, "epoch": 4, "optimizer": "adamw",
+        "weight_decay": 1e-4, "scheduler": "cosine", "warmup_epoch": 1, "warmup_lr": 1e-6, "criterion": "ce"
+      }
+    }
+}

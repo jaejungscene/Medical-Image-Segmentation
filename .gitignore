@@ -1,11 +1,1 @@
-.idea/*
-backup/*
-tmux/*
-docs/*
-
-data
-wandb
-__pycache__
-temp*
-*.pth
-00project_TransUNet
+Swin-Unet
