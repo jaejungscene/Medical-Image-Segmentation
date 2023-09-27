@@ -1,5 +1,5 @@
 # Medical Image Segmentation Research.
-### [paper.pdf](https://github.com/jaejungscene/Medical-Image-Segmentation-Paper/files/12736633/research-paper.pdf)
+### [paper.pdf](https://github.com/jaejungscene/Medical-Image-Segmentation-Paper/blob/main/research-paper.pdf)
 
 ### Method Quick View
 <img width="698" alt="Screenshot 2023-09-27 at 5 04 18 PM" src="https://github.com/jaejungscene/Medical-Image-Segmentation-Paper/assets/88542073/f8a62a70-5280-438f-aeef-60ab8348c213">
