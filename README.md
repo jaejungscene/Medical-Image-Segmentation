@@ -18,4 +18,6 @@
 
 ### Result Quick View
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="600" alt="Screenshot 2023-09-30 at 10 39 14 AM" src="https://github.com/jaejungscene/Medical-Image-Segmentation-Research/assets/88542073/730af11e-d7c2-45df-8080-d843e44e2689">
+<img width="600" alt="Screenshot 2023-10-12 at 9 05 54 PM" src="https://github.com/jaejungscene/Medical-Image-Segmentation-Research/assets/88542073/99b03a21-5a42-497f-9657-759788130294">  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="600" alt="Screenshot 2023-10-12 at 9 06 09 PM" src="https://github.com/jaejungscene/Medical-Image-Segmentation-Research/assets/88542073/42d2f92e-0ce6-4190-afbe-e7009f615375">
